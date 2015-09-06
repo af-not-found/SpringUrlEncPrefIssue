@@ -10,6 +10,5 @@ This issue is fixed on Spring Boot 1.3 (Spring Framework 4.2.0)
 ## original implementation (executable JAR)
 ![orig2](https://raw.githubusercontent.com/af-not-found/SpringUrlEncPrefIssue/master/readme-img/20150906_slow-jar.png)
 
-
-## my implementation (executable JAR)
+## my implementation 'CachingResourceUrlEncodingFilter' (non executable JAR)
 ![myimpl](https://raw.githubusercontent.com/af-not-found/SpringUrlEncPrefIssue/master/readme-img/20150906_fast-direct.png)
