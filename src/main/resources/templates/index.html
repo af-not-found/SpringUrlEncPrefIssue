@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="ja" xmlns:th="http://www.thymeleaf.org">
+<head>
+<script th:src="@{/static/main.js}"></script>
+</head>
+<body>
+	<div th:each="entry : ${entries}">
+		<div>
+			<a th:href='@{/?id={id}(id=${entry.id})}' th:text="${entry.id}">id</a>
+		</div>
+	</div>
+</body>
+</html>
